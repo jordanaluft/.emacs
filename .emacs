@@ -32,8 +32,6 @@
 (eval-after-load "company"
  '(progn (add-to-list 'company-backends 'company-anaconda)))
 
- (overlay-put minimap-line-overlay 'face '(:background "gray" :foreground "gray"))
-
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -57,7 +55,7 @@
  '(custom-enabled-themes (quote (seoul256)))
  '(custom-safe-themes
    (quote
-    ("822ee0a190e234546687e145e4fa97c858195023c595ea57878e59e06b25b6e6" "12ea40aa3720b54d31fd32b9406fb92dad6a5306f8310071b63b01217fb2cafc" "8577da1641ed4bdf255341ca92e3d0e49c9f4d574458f09ce78159690442cade" "50e7f9d112e821e42bd2b8410d50de966c35c7434dec12ddea99cb05dd368dd8" "1dfd7a150e80fdb4563f594716d09d849f4c50bcea12825bd8d284c05a87a3e1" "f245c9f24b609b00441a6a336bcc556fe38a6b24bfc0ca4aedd4fe23d858ba31" "38ba6a938d67a452aeb1dada9d7cdeca4d9f18114e9fc8ed2b972573138d4664" default)))
+    ("344f07e8ede32119f319593ef05716c9f8cd221c43e4490a438ad22ee498bfa4" "822ee0a190e234546687e145e4fa97c858195023c595ea57878e59e06b25b6e6" "12ea40aa3720b54d31fd32b9406fb92dad6a5306f8310071b63b01217fb2cafc" "8577da1641ed4bdf255341ca92e3d0e49c9f4d574458f09ce78159690442cade" "50e7f9d112e821e42bd2b8410d50de966c35c7434dec12ddea99cb05dd368dd8" "1dfd7a150e80fdb4563f594716d09d849f4c50bcea12825bd8d284c05a87a3e1" "f245c9f24b609b00441a6a336bcc556fe38a6b24bfc0ca4aedd4fe23d858ba31" "38ba6a938d67a452aeb1dada9d7cdeca4d9f18114e9fc8ed2b972573138d4664" default)))
  '(fci-rule-color "#3E3D31")
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
